@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fc67dca153615439271da78c446ec6, type: 3}
+  m_Name: damageAir4
+  m_EditorClassIdentifier: 
+  type: 19
+  category: 4
+  amount: 30
+  name: Super air damage
+  description: Super air damage to all minions
+  m_inventoryIcon: {fileID: 21300000, guid: e9671568cf0ed9445a04683b78429f1e, type: 3}
+  price: 17500
+  inventoryMax: 0
+  visibleInInventory: 1

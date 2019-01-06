@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: IAP
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b0aa54583a3fc794da23f3df2b4c3bf3, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4f0e7ac2ee7980949843b6b171496f2d, type: 3}
+  - {fileID: 21300000, guid: f0729c2385c367f4391e8a70119b7e64, type: 3}
+  - {fileID: 21300000, guid: a6faaa8388bfec947862d1da75d10856, type: 3}
+  - {fileID: 21300000, guid: 5a0b85d5920c5614dada1c2b42232b93, type: 3}
+  - {fileID: 21300000, guid: 66bff8567ab31274abe12f644feb2c8f, type: 3}
+  - {fileID: 21300000, guid: 7d405d5a1faeb0f448e073f4614dc2b1, type: 3}
+  - {fileID: 21300000, guid: 4da6c0bdbb985fa47b639a19b10657ed, type: 3}
+  - {fileID: 21300000, guid: 8c0da4ce22f8056489a8817d841203a2, type: 3}
+  - {fileID: 21300000, guid: aa17b8af5b60ae84bbcb8db0064f53f7, type: 3}
+  - {fileID: 21300000, guid: 54c385cfc300f6240b937287f6c76c3e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - iap-btn-05
+  - iap-btn-06
+  - iap-btn-04
+  - iap-btn-02
+  - iap-btn-07
+  - iap-frame
+  - iap-btn-00
+  - iap-btn-03
+  - iap-btn-08
+  - iap-btn-01
+  m_Tag: IAP
+  m_IsVariant: 0

@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9c0317570dc0341a7b6b61f39cb71d, type: 3}
+  m_Name: InventoryUnitsBank
+  m_EditorClassIdentifier: 
+  items:
+  - type: 31
+    sprite: {fileID: 21300000, guid: 4aa6c9845d32b394987a0544015cda4d, type: 3}
+    coins: 100
+    recover: 8
+    available: 1
+    unlockCoins: 100
+    order: -1
+  - type: 1
+    sprite: {fileID: 21300000, guid: ba815c1d6d980274eb2d5e807ef0a761, type: 3}
+    coins: 200
+    recover: 10
+    available: 0
+    unlockCoins: 0
+    order: 0
+  - type: 36
+    sprite: {fileID: 21300000, guid: 14049df930c847b4ea88c5e65fe46b17, type: 3}
+    coins: 125
+    recover: 8
+    available: 0
+    unlockCoins: 125
+    order: 0
+  - type: 22
+    sprite: {fileID: 21300000, guid: 0f76a762b66c5b74e874f8172fbbdbc6, type: 3}
+    coins: 300
+    recover: 10
+    available: 0
+    unlockCoins: 300
+    order: 0
+  - type: 25
+    sprite: {fileID: 21300000, guid: 58922224d1099e247bfb5aa13e139a81, type: 3}
+    coins: 325
+    recover: 10
+    available: 0
+    unlockCoins: 325
+    order: 0
+  - type: 24
+    sprite: {fileID: 21300000, guid: ea1a3dfd6d2bce54eb46ec8e6dc255e1, type: 3}
+    coins: 250
+    recover: 10
+    available: 0
+    unlockCoins: 250
+    order: 0
+  - type: 23
+    sprite: {fileID: 21300000, guid: 6967d43c6efe7a24b81e9a440f34317d, type: 3}
+    coins: 350
+    recover: 10
+    available: 0
+    unlockCoins: 350
+    order: 0
+  - type: 8
+    sprite: {fileID: 21300000, guid: 8d405636cf29da248b2a6ee186df85f4, type: 3}
+    coins: 250
+    recover: 10
+    available: 0
+    unlockCoins: 250
+    order: 0
+  - type: 20
+    sprite: {fileID: 21300000, guid: 57b1ce10a796dc64faafc11892111415, type: 3}
+    coins: 200
+    recover: 10
+    available: 0
+    unlockCoins: 200
+    order: 0
+  - type: 19
+    sprite: {fileID: 21300000, guid: ab667b09516ba844dae95ed693de3b13, type: 3}
+    coins: 175
+    recover: 10
+    available: 0
+    unlockCoins: 175
+    order: 0
+  - type: 18
+    sprite: {fileID: 21300000, guid: 141664013cb131949841dd544096e942, type: 3}
+    coins: 150
+    recover: 10
+    available: 0
+    unlockCoins: 150
+    order: 0
+  - type: 17
+    sprite: {fileID: 21300000, guid: e00604c4f321d964e83f3e6e0eee3dda, type: 3}
+    coins: 75
+    recover: 10
+    available: 0
+    unlockCoins: 75
+    order: 0
+  - type: 21
+    sprite: {fileID: 21300000, guid: e7d69450f6193fc42af062c2dd517d0e, type: 3}
+    coins: 250
+    recover: 10
+    available: 0
+    unlockCoins: 250
+    order: 0
+  - type: 2
+    sprite: {fileID: 21300000, guid: 5ba08c662a365844fabd12589bc42ba3, type: 3}
+    coins: 100
+    recover: 10
+    available: 0
+    unlockCoins: 0
+    order: 0
+  - type: 12
+    sprite: {fileID: 21300000, guid: c8e39e17c52e0a643a9361825662073d, type: 3}
+    coins: 425
+    recover: 10
+    available: 0
+    unlockCoins: 425
+    order: 0
+  - type: 3
+    sprite: {fileID: 21300000, guid: 452a56ace03a27f49a141a29c37fa847, type: 3}
+    coins: 175
+    recover: 10
+    available: 0
+    unlockCoins: 0
+    order: 0
+  - type: 4
+    sprite: {fileID: 21300000, guid: 31acefd1af4b46449bde146f7e1b8b29, type: 3}
+    coins: 1000
+    recover: 10
+    available: 0
+    unlockCoins: 0
+    order: 0
+  - type: 7
+    sprite: {fileID: 21300000, guid: 8db72f61347343e4bb1adcac45c2b6e3, type: 3}
+    coins: 200
+    recover: 10
+    available: 0
+    unlockCoins: 200
+    order: 0
+  - type: 37
+    sprite: {fileID: 21300000, guid: 9dcedce73bd1f0d4ba997d49edbe009f, type: 3}
+    coins: 175
+    recover: 8
+    available: 0
+    unlockCoins: 175
+    order: 0
+  - type: 38
+    sprite: {fileID: 21300000, guid: d01f421a5c22397499ea335fe0022084, type: 3}
+    coins: 50
+    recover: 8
+    available: 1
+    unlockCoins: 200
+    order: 0
+  - type: 28
+    sprite: {fileID: 21300000, guid: 1004fc207e6629046bbbcb61a577bd83, type: 3}
+    coins: 25
+    recover: 30
+    available: 1
+    unlockCoins: 700
+    order: 1
+  - type: 29
+    sprite: {fileID: 21300000, guid: 048d56a6a6e154548ae9d524cd93813c, type: 3}
+    coins: 175
+    recover: 8
+    available: 1
+    unlockCoins: 800
+    order: 2
+  - type: 32
+    sprite: {fileID: 21300000, guid: 8ac77279a022ae54e8bec5b0318a55b2, type: 3}
+    coins: 150
+    recover: 8
+    available: 1
+    unlockCoins: 2000
+    order: 4
+  - type: 33
+    sprite: {fileID: 21300000, guid: f6645c73abfd25e4cab6766db74a7238, type: 3}
+    coins: 200
+    recover: 8
+    available: 1
+    unlockCoins: 3700
+    order: 7
+  - type: 34
+    sprite: {fileID: 21300000, guid: 1dae7d85a94311b4c9a80595694cdb2d, type: 3}
+    coins: 225
+    recover: 8
+    available: 1
+    unlockCoins: 6000
+    order: 10
+  - type: 26
+    sprite: {fileID: 21300000, guid: 9c32c7e21bfb79b41841a0aa62e67e8c, type: 3}
+    coins: 250
+    recover: 13
+    available: 1
+    unlockCoins: 7000
+    order: 13
+  - type: 27
+    sprite: {fileID: 21300000, guid: cfc5d941556ea1644b76c1a6d2a29bef, type: 3}
+    coins: 275
+    recover: 8
+    available: 1
+    unlockCoins: 10000
+    order: 16
+  - type: 30
+    sprite: {fileID: 21300000, guid: 4f467592327e9c54096ea3388c1addd8, type: 3}
+    coins: 225
+    recover: 8
+    available: 1
+    unlockCoins: 12200
+    order: 19
+  - type: 39
+    sprite: {fileID: 21300000, guid: 698f3f894300a8648b85529e49ea3bc4, type: 3}
+    coins: 150
+    recover: 50
+    available: 1
+    unlockCoins: 15000
+    order: 22
+  - type: 41
+    sprite: {fileID: 21300000, guid: a605c4bb24c4091449b3485c26d0dd7e, type: 3}
+    coins: 50
+    recover: 30
+    available: 1
+    unlockCoins: 15500
+    order: 25
+  - type: 16
+    sprite: {fileID: 21300000, guid: cacb95d57efb5164f9246b49ebe5f251, type: 3}
+    coins: 150
+    recover: 50
+    available: 1
+    unlockCoins: 16000
+    order: 28
+  - type: 35
+    sprite: {fileID: 21300000, guid: 888a59bec620b764db3ccdf18d4e6d02, type: 3}
+    coins: 300
+    recover: 10
+    available: 1
+    unlockCoins: 16500
+    order: 31
+  - type: 15
+    sprite: {fileID: 21300000, guid: e16f5c1aabf36304898216ae538d1db4, type: 3}
+    coins: 50
+    recover: 30
+    available: 0
+    unlockCoins: 17000
+    order: 34
+  - type: 42
+    sprite: {fileID: 21300000, guid: 3a374b2a8be6ae546b994de4144ae738, type: 3}
+    coins: 125
+    recover: 30
+    available: 1
+    unlockCoins: 17500
+    order: 37
+  - type: 5
+    sprite: {fileID: 21300000, guid: fce6883f1590db8499e86f0042ef8e66, type: 3}
+    coins: 400
+    recover: 8
+    available: 1
+    unlockCoins: 18000
+    order: 40
+  - type: 6
+    sprite: {fileID: 21300000, guid: 861538a113de046408b894cfdd31c297, type: 3}
+    coins: 425
+    recover: 8
+    available: 1
+    unlockCoins: 18500
+    order: 43
+  - type: 9
+    sprite: {fileID: 21300000, guid: 4f616dd470f778749a1e1838735468b5, type: 3}
+    coins: 200
+    recover: 50
+    available: 1
+    unlockCoins: 19000
+    order: 46
+  - type: 10
+    sprite: {fileID: 21300000, guid: 63c603a12d1191c43af20d593b135707, type: 3}
+    coins: 450
+    recover: 8
+    available: 1
+    unlockCoins: 19500
+    order: 49
+  - type: 13
+    sprite: {fileID: 21300000, guid: 9d7727220d22fd04088a1b21c250ca5a, type: 3}
+    coins: 475
+    recover: 8
+    available: 1
+    unlockCoins: 21000
+    order: 52
+  - type: 40
+    sprite: {fileID: 21300000, guid: 58d9a1f5f3c6a5a4394cdcec9c6496b4, type: 3}
+    coins: 550
+    recover: 70
+    available: 1
+    unlockCoins: 25000
+    order: 55
+  - type: 11
+    sprite: {fileID: 21300000, guid: 450b17dffefa2f74cbec27a13daca239, type: 3}
+    coins: 500
+    recover: 8
+    available: 1
+    unlockCoins: 32000
+    order: 58
+  - type: 14
+    sprite: {fileID: 21300000, guid: 9fd1bde280507f649ba6b27f8121830e, type: 3}
+    coins: 525
+    recover: 8
+    available: 1
+    unlockCoins: 43000
+    order: 63
+  btnUnit: {fileID: 1032726481848454, guid: c63454d7fa5688a439b92b90cdd1cd1d, type: 2}
+  emptySlot: {fileID: 1469739400737922, guid: 553359024955dfb48b2fb9d8756be9ed, type: 2}
+  videoSlot: {fileID: 1101804618682392, guid: e91fb524b3f0f6b4eac6c2cbe1cd7a19, type: 2}
+  lockIco: {fileID: 1020423733532688, guid: d403ca82ce93ece4b85df163467f76ef, type: 2}
+  lockIcoPos: {x: 120, y: -50, z: 0}

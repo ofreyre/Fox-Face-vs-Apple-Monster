@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fc67dca153615439271da78c446ec6, type: 3}
+  m_Name: Babypacman4
+  m_EditorClassIdentifier: 
+  type: 31
+  category: 7
+  amount: 600
+  name: Baby packman super package
+  description: Package of 500 baby pacmans
+  m_inventoryIcon: {fileID: 21300000, guid: 85be2f02d6a682741957e8444f05c068, type: 3}
+  price: 5000
+  inventoryMax: 0
+  visibleInInventory: 1

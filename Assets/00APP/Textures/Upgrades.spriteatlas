@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Upgrades
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 1c9369c5a4dd82743b3f1dfc05c92fee, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 18ff8bb01aec5f247908950663530f3a, type: 3}
+  - {fileID: 21300000, guid: 8fdba391a49ad52408d878c803e3504a, type: 3}
+  - {fileID: 21300000, guid: 476be622f2ef31b4eaa1cc81ace0cfad, type: 3}
+  - {fileID: 21300000, guid: 5bb84c827a156994da1016781f7fca6a, type: 3}
+  - {fileID: 21300000, guid: 40b64db25cbcbdf41b0aed5eb2f5ebaa, type: 3}
+  - {fileID: 21300000, guid: 83fe34260317b264b9e9e7e3313d091a, type: 3}
+  - {fileID: 21300000, guid: 455aabb62dcfb4c44b0ed7903371edb7, type: 3}
+  - {fileID: 21300000, guid: 7d782c27d5a0f4345bd3cf6d1b42aac4, type: 3}
+  - {fileID: 21300000, guid: 3b193ca77e011bb47bfe0ada0960afc7, type: 3}
+  - {fileID: 21300000, guid: 5b3ed2d7cf87b7140af9fc8f9018a87a, type: 3}
+  - {fileID: 21300000, guid: ee3ed2596011793478a7d9794aa19c3c, type: 3}
+  - {fileID: 21300000, guid: 240d91ea6d55e5343b75a327442c92b8, type: 3}
+  - {fileID: 21300000, guid: 84793e3b050657c498c611444f46b6d2, type: 3}
+  - {fileID: 21300000, guid: f50f1a9c7e43fe047b5f873a6118e3d1, type: 3}
+  - {fileID: 21300000, guid: 9c0782bc68213cf43b7dd8333ad83637, type: 3}
+  - {fileID: 21300000, guid: 72b65caf36e5ac246a42cde741ac6a3a, type: 3}
+  - {fileID: 21300000, guid: 4697e5ef52ca8b645af4816fa699ae9e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - btn-upgrade-pacmanbaby-duration
+  - btn-upgrade-ammo-speed
+  - btn-upgrade-attack-air
+  - btn-upgrade-attack-ice
+  - btn-upgrade-coin-duration
+  - btn-upgrace-coinprob
+  - btn-upgrade-coin-value
+  - btn-upgrade-character-speed
+  - btn-upgrade-life
+  - btn-upgrade-attack-fire
+  - btn-upgrade-attack-hit
+  - btn-upgrade-babypacman-value
+  - btn-upgrade-ammo-range
+  - btn-upgrade-reloadspeed
+  - game-frame-item-selected
+  - btn-upgrade-recoverytime
+  - btn-upgrade-protectionHit
+  m_Tag: Upgrades
+  m_IsVariant: 0

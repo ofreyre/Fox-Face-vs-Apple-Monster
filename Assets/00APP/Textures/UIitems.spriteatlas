@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UIitems
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 6c6c317f606ab95488ed9059534c5873, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 6276e9811bf2aaa4e88f75a182cc06f4, type: 3}
+  - {fileID: 21300000, guid: 8069ab020a0b797439e9987ea27519ea, type: 3}
+  - {fileID: 21300000, guid: 85be2f02d6a682741957e8444f05c068, type: 3}
+  - {fileID: 21300000, guid: 3806a172cd4009449b827265b50a9a14, type: 3}
+  - {fileID: 21300000, guid: 8a10e1b370842c84e8114c7095ff8ab1, type: 3}
+  - {fileID: 21300000, guid: c92a1eb398bf42048aec19ecd05eb24c, type: 3}
+  - {fileID: 21300000, guid: 31fbbcc3d1e1ec646babe5d7f5721060, type: 3}
+  - {fileID: 21300000, guid: b29727f31e17a8a47aefb7bbb73e8ae0, type: 3}
+  - {fileID: 21300000, guid: 070c66f45843f2d4a873b40e4737f0e6, type: 3}
+  - {fileID: 21300000, guid: 42f77b350e1017d4a909dae330673d2f, type: 3}
+  - {fileID: 21300000, guid: 83dd7c3533710744fb9a532c5f0e7e7f, type: 3}
+  - {fileID: 21300000, guid: 25434e6563cff6c4b8b2e9b445816f82, type: 3}
+  - {fileID: 21300000, guid: 6e1459a5a3632884ea46e92b2c8a03b2, type: 3}
+  - {fileID: 21300000, guid: e4af8876199f91b469803dd17332dabc, type: 3}
+  - {fileID: 21300000, guid: f954de287fcd0d04ea8f0d1438a7a5c4, type: 3}
+  - {fileID: 21300000, guid: 028d8858870d07940a36e5048f9a6a81, type: 3}
+  - {fileID: 21300000, guid: e9671568cf0ed9445a04683b78429f1e, type: 3}
+  - {fileID: 21300000, guid: d4fac9988e005564aa5bf54974d24de4, type: 3}
+  - {fileID: 21300000, guid: 5ee311e8772056a488a86881e38090a9, type: 3}
+  - {fileID: 21300000, guid: e9d74e293add3534f960da5042eb9d4a, type: 3}
+  - {fileID: 21300000, guid: 8792f70a677e8094dacb6185db6bf047, type: 3}
+  - {fileID: 21300000, guid: 621a102a7d2a1384cb74c3db90a8c3ab, type: 3}
+  - {fileID: 21300000, guid: e596c56a87c461543a7a945b05b07ca9, type: 3}
+  - {fileID: 21300000, guid: cabbe4fa2a1ed82468bf8b139eb61fa4, type: 3}
+  - {fileID: 21300000, guid: 1fd1acfac377a2043a94502b1c64f17d, type: 3}
+  - {fileID: 21300000, guid: 2e7eb61b037a3f446befbf5bebbb4a4b, type: 3}
+  - {fileID: 21300000, guid: b528b81c2db1d564fb1de70502356da2, type: 3}
+  - {fileID: 21300000, guid: 3d97a98c909f4f04db10dd9d557742c5, type: 3}
+  - {fileID: 21300000, guid: 366a419c648d74040b70f1b0354c02b5, type: 3}
+  - {fileID: 21300000, guid: 8be857ac54c75484ca3930db5ab1f361, type: 3}
+  - {fileID: 21300000, guid: 5c5b412d1100f98479df9602638f2421, type: 3}
+  - {fileID: 21300000, guid: 7f22d56d1599c224292eafd872c0be40, type: 3}
+  - {fileID: 21300000, guid: 9641c2fe6b2b0fe4298a2ea54edb7cfc, type: 3}
+  - {fileID: 21300000, guid: 744732cfd9cdc464bb85bf9c9a30c286, type: 3}
+  - {fileID: 21300000, guid: 4ea533ffa61f5674dada16755dccb614, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - game-frame-item-selected
+  - btn-items-ammo-air-0
+  - btn-items-collectables-babyPacman-3
+  - btn-items-life-immortal-2
+  - btn-items-character-speedUp-0
+  - btn-items-life-immortal-3
+  - btn-items-character-freeze-0
+  - btn-items-character-freeze-1
+  - btn-items-ammo-fire-3
+  - btn-items-ammo-ice-0
+  - btn-items-ammo-hit-0
+  - btn-items-ammo-hit-3
+  - btn-items-character-speedUp-1
+  - btn-items-collectables-babyPacman-1
+  - btn-items-character-speedUp-3
+  - btn-items-life-immortal-0
+  - btn-items-ammo-air-3
+  - btn-items-collectables-babyPacman-2
+  - btn-items-ammo-ice-3
+  - btn-items-ammo-air-2
+  - btn-items-ammo-fire-0
+  - btn-items-ammo-fire-1
+  - btn-items-character-speedUp-2
+  - btn-items-ammo-hit-1
+  - btn-items-collectables-babyPacman-4
+  - btn-items-life-immortal-1
+  - btn-items-ammo-air-1
+  - btn-items-ammo-ice-2
+  - btn-items-collectables-babyPacman-0
+  - btn-items-ammo-hit-2
+  - btn-items-character-freeze-2
+  - btn-items-ammo-fire-2
+  - btn-items-character-freeze-3
+  - game-frame-empty
+  - btn-items-ammo-ice-1
+  m_Tag: UIitems
+  m_IsVariant: 0

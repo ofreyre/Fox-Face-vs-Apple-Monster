@@ -1,0 +1,446 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ed194517881664997bcbc9ec402829, type: 3}
+  m_Name: UpgradesCatalog
+  m_EditorClassIdentifier: 
+  upgrades:
+  - category: 0
+    upgrades:
+    - type: 1
+      stars: 1
+      amount: 0.5
+      UIdata:
+        m_name: Hit protection
+        m_description: More protection against minion hit
+        m_sprite: {fileID: 21300000, guid: 4697e5ef52ca8b645af4816fa699ae9e, type: 3}
+    - type: 1
+      stars: 1
+      amount: 0.5
+      UIdata:
+        m_name: Hit protection
+        m_description: More protection against minion hit
+        m_sprite: {fileID: 21300000, guid: 4697e5ef52ca8b645af4816fa699ae9e, type: 3}
+    - type: 0
+      stars: 2
+      amount: 1
+      UIdata:
+        m_name: Stamina
+        m_description: More stamina for every unit
+        m_sprite: {fileID: 21300000, guid: 3b193ca77e011bb47bfe0ada0960afc7, type: 3}
+    - type: 1
+      stars: 1
+      amount: 0.5
+      UIdata:
+        m_name: Hit protection
+        m_description: More protection against minion hit
+        m_sprite: {fileID: 21300000, guid: 4697e5ef52ca8b645af4816fa699ae9e, type: 3}
+    - type: 1
+      stars: 1
+      amount: 0.5
+      UIdata:
+        m_name: Hit protection
+        m_description: More protection against minion hit
+        m_sprite: {fileID: 21300000, guid: 4697e5ef52ca8b645af4816fa699ae9e, type: 3}
+    - type: 1
+      stars: 2
+      amount: 0.5
+      UIdata:
+        m_name: Hit protection
+        m_description: More protection against minion hit
+        m_sprite: {fileID: 21300000, guid: 4697e5ef52ca8b645af4816fa699ae9e, type: 3}
+    - type: 0
+      stars: 3
+      amount: 1
+      UIdata:
+        m_name: Stamina
+        m_description: More stamina for every unit
+        m_sprite: {fileID: 21300000, guid: 3b193ca77e011bb47bfe0ada0960afc7, type: 3}
+    - type: 1
+      stars: 2
+      amount: 1
+      UIdata:
+        m_name: Hit protection
+        m_description: More protection against minion hit
+        m_sprite: {fileID: 21300000, guid: 4697e5ef52ca8b645af4816fa699ae9e, type: 3}
+    - type: 1
+      stars: 2
+      amount: 1
+      UIdata:
+        m_name: Hit protection
+        m_description: More protection against minion hit
+        m_sprite: {fileID: 21300000, guid: 4697e5ef52ca8b645af4816fa699ae9e, type: 3}
+    - type: 0
+      stars: 6
+      amount: 2
+      UIdata:
+        m_name: Stamina
+        m_description: More stamina for every unit
+        m_sprite: {fileID: 21300000, guid: 3b193ca77e011bb47bfe0ada0960afc7, type: 3}
+  - category: 1
+    upgrades:
+    - type: 2
+      stars: 1
+      amount: 0.02
+      UIdata:
+        m_name: Hit damage
+        m_description: More hit damage to minions
+        m_sprite: {fileID: 21300000, guid: ee3ed2596011793478a7d9794aa19c3c, type: 3}
+    - type: 2
+      stars: 1
+      amount: 0.04
+      UIdata:
+        m_name: Hit damage
+        m_description: More hit damage to minions
+        m_sprite: {fileID: 21300000, guid: ee3ed2596011793478a7d9794aa19c3c, type: 3}
+    - type: 3
+      stars: 2
+      amount: 0.04
+      UIdata:
+        m_name: Ice damage
+        m_description: More ice damage to minions
+        m_sprite: {fileID: 21300000, guid: 5bb84c827a156994da1016781f7fca6a, type: 3}
+    - type: 4
+      stars: 3
+      amount: 0.1
+      UIdata:
+        m_name: Fire damage
+        m_description: More fire damage to minions
+        m_sprite: {fileID: 21300000, guid: 5b3ed2d7cf87b7140af9fc8f9018a87a, type: 3}
+    - type: 5
+      stars: 3
+      amount: 0.2
+      UIdata:
+        m_name: Air damage
+        m_description: More air damage to minions
+        m_sprite: {fileID: 21300000, guid: 476be622f2ef31b4eaa1cc81ace0cfad, type: 3}
+    - type: 2
+      stars: 4
+      amount: 0.2
+      UIdata:
+        m_name: Hit damage
+        m_description: More hit damage to minions
+        m_sprite: {fileID: 21300000, guid: ee3ed2596011793478a7d9794aa19c3c, type: 3}
+    - type: 2
+      stars: 5
+      amount: 0.63
+      UIdata:
+        m_name: Hit damage
+        m_description: More hit damage to minions
+        m_sprite: {fileID: 21300000, guid: ee3ed2596011793478a7d9794aa19c3c, type: 3}
+    - type: 3
+      stars: 6
+      amount: 0.16
+      UIdata:
+        m_name: Ice damage
+        m_description: More ice damage to minions
+        m_sprite: {fileID: 21300000, guid: 5bb84c827a156994da1016781f7fca6a, type: 3}
+    - type: 4
+      stars: 6
+      amount: 0.5
+      UIdata:
+        m_name: Fire damage
+        m_description: More fire damage to minions
+        m_sprite: {fileID: 21300000, guid: 5b3ed2d7cf87b7140af9fc8f9018a87a, type: 3}
+    - type: 5
+      stars: 7
+      amount: 1.1
+      UIdata:
+        m_name: Air damage
+        m_description: More air damage to minions
+        m_sprite: {fileID: 21300000, guid: 476be622f2ef31b4eaa1cc81ace0cfad, type: 3}
+  - category: 2
+    upgrades:
+    - type: 6
+      stars: 1
+      amount: 0.05
+      UIdata:
+        m_name: Unit speed
+        m_description: Speed-up units
+        m_sprite: {fileID: 21300000, guid: 7d782c27d5a0f4345bd3cf6d1b42aac4, type: 3}
+    - type: 6
+      stars: 1
+      amount: 0.05
+      UIdata:
+        m_name: Unit speed
+        m_description: Speed-up units
+        m_sprite: {fileID: 21300000, guid: 7d782c27d5a0f4345bd3cf6d1b42aac4, type: 3}
+    - type: 6
+      stars: 2
+      amount: 0.05
+      UIdata:
+        m_name: Unit speed
+        m_description: Speed-up units
+        m_sprite: {fileID: 21300000, guid: 7d782c27d5a0f4345bd3cf6d1b42aac4, type: 3}
+    - type: 7
+      stars: 4
+      amount: 0.15
+      UIdata:
+        m_name: 'Reload speed '
+        m_description: Reduce reloading time
+        m_sprite: {fileID: 21300000, guid: f50f1a9c7e43fe047b5f873a6118e3d1, type: 3}
+    - type: 6
+      stars: 2
+      amount: 0.05
+      UIdata:
+        m_name: Unit speed
+        m_description: Speed-up units
+        m_sprite: {fileID: 21300000, guid: 7d782c27d5a0f4345bd3cf6d1b42aac4, type: 3}
+    - type: 6
+      stars: 2
+      amount: 0.05
+      UIdata:
+        m_name: Unit speed
+        m_description: Speed-up units
+        m_sprite: {fileID: 21300000, guid: 7d782c27d5a0f4345bd3cf6d1b42aac4, type: 3}
+    - type: 7
+      stars: 6
+      amount: 0.15
+      UIdata:
+        m_name: 'Reload speed '
+        m_description: Reduce reloading time
+        m_sprite: {fileID: 21300000, guid: f50f1a9c7e43fe047b5f873a6118e3d1, type: 3}
+    - type: 6
+      stars: 3
+      amount: 0.05
+      UIdata:
+        m_name: Unit speed
+        m_description: Speed-up units
+        m_sprite: {fileID: 21300000, guid: 7d782c27d5a0f4345bd3cf6d1b42aac4, type: 3}
+    - type: 6
+      stars: 4
+      amount: 0.05
+      UIdata:
+        m_name: Unit speed
+        m_description: Speed-up units
+        m_sprite: {fileID: 21300000, guid: 7d782c27d5a0f4345bd3cf6d1b42aac4, type: 3}
+    - type: 7
+      stars: 7
+      amount: 0.15
+      UIdata:
+        m_name: 'Reload speed '
+        m_description: Reduce reloading time
+        m_sprite: {fileID: 21300000, guid: f50f1a9c7e43fe047b5f873a6118e3d1, type: 3}
+  - category: 3
+    upgrades:
+    - type: 8
+      stars: 1
+      amount: 0.1
+      UIdata:
+        m_name: Bullet speed
+        m_description: Increase bullets speed
+        m_sprite: {fileID: 21300000, guid: 8fdba391a49ad52408d878c803e3504a, type: 3}
+    - type: 8
+      stars: 1
+      amount: 0.1
+      UIdata:
+        m_name: Bullet speed
+        m_description: Increase bullets speed
+        m_sprite: {fileID: 21300000, guid: 8fdba391a49ad52408d878c803e3504a, type: 3}
+    - type: 8
+      stars: 2
+      amount: 0.1
+      UIdata:
+        m_name: Bullet speed
+        m_description: Increase bullets speed
+        m_sprite: {fileID: 21300000, guid: 8fdba391a49ad52408d878c803e3504a, type: 3}
+    - type: 9
+      stars: 4
+      amount: 0.05
+      UIdata:
+        m_name: Damage range
+        m_description: Increase damage range
+        m_sprite: {fileID: 21300000, guid: 84793e3b050657c498c611444f46b6d2, type: 3}
+    - type: 8
+      stars: 2
+      amount: 0.2
+      UIdata:
+        m_name: Bullet speed
+        m_description: Increase bullets speed
+        m_sprite: {fileID: 21300000, guid: 8fdba391a49ad52408d878c803e3504a, type: 3}
+    - type: 8
+      stars: 3
+      amount: 0.2
+      UIdata:
+        m_name: Bullet speed
+        m_description: Increase bullets speed
+        m_sprite: {fileID: 21300000, guid: 8fdba391a49ad52408d878c803e3504a, type: 3}
+    - type: 9
+      stars: 5
+      amount: 0.05
+      UIdata:
+        m_name: Damage range
+        m_description: Increase damage range
+        m_sprite: {fileID: 21300000, guid: 84793e3b050657c498c611444f46b6d2, type: 3}
+    - type: 8
+      stars: 3
+      amount: 0.2
+      UIdata:
+        m_name: Bullet speed
+        m_description: Increase bullets speed
+        m_sprite: {fileID: 21300000, guid: 8fdba391a49ad52408d878c803e3504a, type: 3}
+    - type: 8
+      stars: 3
+      amount: 0.2
+      UIdata:
+        m_name: Bullet speed
+        m_description: Increase bullets speed
+        m_sprite: {fileID: 21300000, guid: 8fdba391a49ad52408d878c803e3504a, type: 3}
+    - type: 9
+      stars: 7
+      amount: 0.2
+      UIdata:
+        m_name: Damage range
+        m_description: Increase damage range
+        m_sprite: {fileID: 21300000, guid: 84793e3b050657c498c611444f46b6d2, type: 3}
+  - category: 4
+    upgrades:
+    - type: 10
+      stars: 1
+      amount: 0.5
+      UIdata:
+        m_name: Recovery time
+        m_description: Speed-up unit production recovery time
+        m_sprite: {fileID: 21300000, guid: 72b65caf36e5ac246a42cde741ac6a3a, type: 3}
+    - type: 10
+      stars: 1
+      amount: 0.5
+      UIdata:
+        m_name: Recovery time
+        m_description: Speed-up unit production recovery time
+        m_sprite: {fileID: 21300000, guid: 72b65caf36e5ac246a42cde741ac6a3a, type: 3}
+    - type: 10
+      stars: 1
+      amount: 0.5
+      UIdata:
+        m_name: Recovery time
+        m_description: Speed-up unit production recovery time
+        m_sprite: {fileID: 21300000, guid: 72b65caf36e5ac246a42cde741ac6a3a, type: 3}
+    - type: 10
+      stars: 2
+      amount: 0.3
+      UIdata:
+        m_name: Recovery time
+        m_description: Speed-up unit production recovery time
+        m_sprite: {fileID: 21300000, guid: 72b65caf36e5ac246a42cde741ac6a3a, type: 3}
+    - type: 10
+      stars: 2
+      amount: 0.3
+      UIdata:
+        m_name: Recovery time
+        m_description: Speed-up unit production recovery time
+        m_sprite: {fileID: 21300000, guid: 72b65caf36e5ac246a42cde741ac6a3a, type: 3}
+    - type: 10
+      stars: 2
+      amount: 0.3
+      UIdata:
+        m_name: Recovery time
+        m_description: Speed-up unit production recovery time
+        m_sprite: {fileID: 21300000, guid: 72b65caf36e5ac246a42cde741ac6a3a, type: 3}
+    - type: 10
+      stars: 3
+      amount: 0.3
+      UIdata:
+        m_name: Recovery time
+        m_description: Speed-up unit production recovery time
+        m_sprite: {fileID: 21300000, guid: 72b65caf36e5ac246a42cde741ac6a3a, type: 3}
+    - type: 10
+      stars: 3
+      amount: 0
+      UIdata:
+        m_name: Recovery time
+        m_description: Speed-up unit production recovery time
+        m_sprite: {fileID: 21300000, guid: 72b65caf36e5ac246a42cde741ac6a3a, type: 3}
+    - type: 10
+      stars: 3
+      amount: 0.5
+      UIdata:
+        m_name: Recovery time
+        m_description: Speed-up unit production recovery time
+        m_sprite: {fileID: 21300000, guid: 72b65caf36e5ac246a42cde741ac6a3a, type: 3}
+    - type: 10
+      stars: 4
+      amount: 1
+      UIdata:
+        m_name: Recovery time
+        m_description: Speed-up unit production recovery time
+        m_sprite: {fileID: 21300000, guid: 72b65caf36e5ac246a42cde741ac6a3a, type: 3}
+  - category: 5
+    upgrades:
+    - type: 11
+      stars: 1
+      amount: 10
+      UIdata:
+        m_name: Coin value
+        m_description: Upgrade collected coin value
+        m_sprite: {fileID: 21300000, guid: 455aabb62dcfb4c44b0ed7903371edb7, type: 3}
+    - type: 13
+      stars: 1
+      amount: 0.01
+      UIdata:
+        m_name: More coins
+        m_description: Increase probability of getting coins from dead evil minions
+        m_sprite: {fileID: 21300000, guid: 83fe34260317b264b9e9e7e3313d091a, type: 3}
+    - type: 15
+      stars: 1
+      amount: 3
+      UIdata:
+        m_name: Coin life
+        m_description: Coins stay more time on screen
+        m_sprite: {fileID: 21300000, guid: 40b64db25cbcbdf41b0aed5eb2f5ebaa, type: 3}
+    - type: 17
+      stars: 4
+      amount: 5
+      UIdata:
+        m_name: Baby Pacman life
+        m_description: Baby Pacman stay more time on screen
+        m_sprite: {fileID: 21300000, guid: 18ff8bb01aec5f247908950663530f3a, type: 3}
+    - type: 12
+      stars: 1
+      amount: 50
+      UIdata:
+        m_name: Coin value
+        m_description: Upgrade collected coin value
+        m_sprite: {fileID: 21300000, guid: 455aabb62dcfb4c44b0ed7903371edb7, type: 3}
+    - type: 13
+      stars: 2
+      amount: 0.01
+      UIdata:
+        m_name: More coins
+        m_description: Increase probability of getting coins from dead evil minions
+        m_sprite: {fileID: 21300000, guid: 83fe34260317b264b9e9e7e3313d091a, type: 3}
+    - type: 16
+      stars: 6
+      amount: 1
+      UIdata:
+        m_name: More Baby Pacman
+        m_description: Miss Pacman delivers more Baby Pacmans
+        m_sprite: {fileID: 21300000, guid: 240d91ea6d55e5343b75a327442c92b8, type: 3}
+    - type: 15
+      stars: 2
+      amount: 4
+      UIdata:
+        m_name: Coin life
+        m_description: Coins stay more time on screen
+        m_sprite: {fileID: 21300000, guid: 40b64db25cbcbdf41b0aed5eb2f5ebaa, type: 3}
+    - type: 14
+      stars: 3
+      amount: 0.05
+      UIdata:
+        m_name: More coins
+        m_description: Increase probability of getting coins from dead evil minions
+        m_sprite: {fileID: 21300000, guid: 83fe34260317b264b9e9e7e3313d091a, type: 3}
+    - type: 16
+      stars: 10
+      amount: 1
+      UIdata:
+        m_name: More Baby Pacman
+        m_description: Miss Pacman delivers more Baby Pacmans
+        m_sprite: {fileID: 21300000, guid: 240d91ea6d55e5343b75a327442c92b8, type: 3}

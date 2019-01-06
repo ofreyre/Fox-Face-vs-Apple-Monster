@@ -1,0 +1,484 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c64fe21663916418a460f106e74f28, type: 3}
+  m_Name: GamepediaBank
+  m_EditorClassIdentifier: 
+  attackers:
+  - type: 0
+    prefab: {fileID: 1065900598237056, guid: fe5150a726a23b4428f0e60624ddb11f, type: 2}
+    name: Minion Taxi
+    description: {fileID: 1391058021040494, guid: 2391018c043a21441b5bd5313fdad0de,
+      type: 2}
+    display: 0
+  - type: 1
+    prefab: {fileID: 1172356790198762, guid: f76005913b2b9aa4698430c1de2b1cbf, type: 2}
+    name: Roofed Minion Taxi
+    description: {fileID: 1553989018890688, guid: a140bd64b960109419ee24463d9afc02,
+      type: 2}
+    display: 0
+  - type: 2
+    prefab: {fileID: 1990582544612910, guid: cf1983d84663397408b153dd07c48836, type: 2}
+    name: Quasimodo
+    description: {fileID: 1480039798823394, guid: c429e5a22c23b034286497cc46ff5b7c,
+      type: 2}
+    display: 1
+  - type: 3
+    prefab: {fileID: 0}
+    name: 
+    description: {fileID: 0}
+    display: 0
+  - type: 4
+    prefab: {fileID: 0}
+    name: 
+    description: {fileID: 0}
+    display: 0
+  - type: 5
+    prefab: {fileID: 0}
+    name: 
+    description: {fileID: 0}
+    display: 0
+  - type: 6
+    prefab: {fileID: 1465784312308544, guid: 656a22679d981a7438976cc77d928933, type: 2}
+    name: Mini Fireproof Pot Apple
+    description: {fileID: 1205679175352450, guid: fa752cede9ea66c4492bbac40b8431f5,
+      type: 2}
+    display: 1
+  - type: 7
+    prefab: {fileID: 1808005227928360, guid: 71ea6f91dd1275d4484ea909a2fe44db, type: 2}
+    name: Mini Super Fireproof Pot Apple
+    description: {fileID: 1114769047171596, guid: 08984ab19572d0948826595c0849afa3,
+      type: 2}
+    display: 1
+  - type: 8
+    prefab: {fileID: 1980967676217872, guid: 7eca00b47e14958498ffa31a3c08f705, type: 2}
+    name: Mini Fireproof Apple
+    description: {fileID: 1335839321772246, guid: 4a134f55176ee414d95f3c3ebaa1a934,
+      type: 2}
+    display: 1
+  - type: 9
+    prefab: {fileID: 1299984876115018, guid: 933ec8059dc7ea145aabd486f8b0775f, type: 2}
+    name: Mini Super Fireproof Apple
+    description: {fileID: 1376867636069592, guid: e3e6534dd4601e3429eeaf8cdf71e82c,
+      type: 2}
+    display: 1
+  - type: 10
+    prefab: {fileID: 1000092158837848, guid: e4b755671b5a7344486b7d1edfdb5748, type: 2}
+    name: Mini Fireproof Bucket Apple
+    description: {fileID: 1728999721106250, guid: fab57793c2c5cb746a7c468d0a687646,
+      type: 2}
+    display: 1
+  - type: 11
+    prefab: {fileID: 1456194391179032, guid: 0802871d9fd35f3428e580653c8edb33, type: 2}
+    name: Mini Super Fireproof Bucket Apple
+    description: {fileID: 1599360834373254, guid: 39ea550b95bfde64b81d79a668eda766,
+      type: 2}
+    display: 1
+  - type: 12
+    prefab: {fileID: 1188473690596690, guid: 53a39d9014691f643865c88de16bcf88, type: 2}
+    name: Fireproof Pot Apple
+    description: {fileID: 1583102392080388, guid: f88e76ddb42d3b24999df22ec1555755,
+      type: 2}
+    display: 1
+  - type: 13
+    prefab: {fileID: 1044569580478368, guid: a37123d60e8d9344bae56989d672d65c, type: 2}
+    name: Super Fireproof Pot Apple
+    description: {fileID: 1287728471344254, guid: 8afb55d915fc2c94b9fc49e6a0fb0698,
+      type: 2}
+    display: 1
+  - type: 14
+    prefab: {fileID: 1609066403094390, guid: 858652d71a97e3344bd4ab73ef3f36c4, type: 2}
+    name: Fireproof Apple
+    description: {fileID: 1171666230945574, guid: c46ed1783a99e8b4eb8740c7337d9e65,
+      type: 2}
+    display: 1
+  - type: 15
+    prefab: {fileID: 1850285412895582, guid: 5ca80d4c24dc999449bb88e026aaf1b7, type: 2}
+    name: Super Fireproof Apple
+    description: {fileID: 1694917338332844, guid: e58fcd8da68bda84d872f8ac7a553240,
+      type: 2}
+    display: 1
+  - type: 16
+    prefab: {fileID: 1238992504307968, guid: 1e768bd3fadb707418206e63329afbb2, type: 2}
+    name: Fireproof Bucket Apple
+    description: {fileID: 1033017277654084, guid: 014da9be03eac314f94e26f13c9c2a00,
+      type: 2}
+    display: 1
+  - type: 17
+    prefab: {fileID: 1772635895642818, guid: 5663c9ba95dc3264787bd359465c75ff, type: 2}
+    name: Super Fireproof Bucket Apple
+    description: {fileID: 1132730144386778, guid: 79aa3728df56352458434ac36e1b2dd3,
+      type: 2}
+    display: 1
+  - type: 18
+    prefab: {fileID: 1117838635624026, guid: e3b1051fb2defd845b23f360d4b2b128, type: 2}
+    name: SEAL Apple
+    description: {fileID: 1594225903242034, guid: 124c2abedaa3ae441b2f525e666a4092,
+      type: 2}
+    display: 1
+  - type: 19
+    prefab: {fileID: 1184747072036794, guid: 995989286f08e2a408aef7ac1b1da276, type: 2}
+    name: SEAL Plus Apple
+    description: {fileID: 1456402279748910, guid: e6dfd904159b89b458107a7d043c6cda,
+      type: 2}
+    display: 1
+  - type: 20
+    prefab: {fileID: 1326907221594642, guid: ddc51d977aefe5f4082c82e03012215e, type: 2}
+    name: Ultimate SEAL Apple
+    description: {fileID: 1583306974681200, guid: 58d25c2f50ab2db4ca42b09982338304,
+      type: 2}
+    display: 1
+  - type: 21
+    prefab: {fileID: 0}
+    name: 
+    description: {fileID: 0}
+    display: 0
+  - type: 22
+    prefab: {fileID: 1365195285337678, guid: 3bedf6dd2dff98b4eb670a04d1c8c4af, type: 2}
+    name: Mini Eskimo Pot Apple
+    description: {fileID: 1426302610810050, guid: 05e3a1c44517a0840b44c9fc519ffff1,
+      type: 2}
+    display: 1
+  - type: 23
+    prefab: {fileID: 1231562707828626, guid: 0c0562e885c5fbf4b940864cc14d6525, type: 2}
+    name: Mini Eskimo Apple
+    description: {fileID: 1932472279696172, guid: bcbb1f7bcc0c35b4faf4b2ea02f3195c,
+      type: 2}
+    display: 1
+  - type: 24
+    prefab: {fileID: 1611608933462278, guid: 423e3186e8c83834abe19965a70bbbbf, type: 2}
+    name: Mini Eskimo Bucket Apple
+    description: {fileID: 1543147425201876, guid: 774f6b5fcc285c7489e4ab0a8c9a78c5,
+      type: 2}
+    display: 1
+  - type: 25
+    prefab: {fileID: 1891449781146752, guid: a98e4e59a2f91224087a3f6f169aaa27, type: 2}
+    name: Mini Eskimo Bucket Apple
+    description: {fileID: 1726671440694524, guid: 9df4e43fa963c0c4b90022fb287e2aae,
+      type: 2}
+    display: 1
+  - type: 26
+    prefab: {fileID: 1475691448823106, guid: 788024a102f9c2c418e91a68f12943d0, type: 2}
+    name: Eskimo Apple
+    description: {fileID: 1048610120543850, guid: c34a9565cd7ff3342ad6c98f44cf0fdf,
+      type: 2}
+    display: 1
+  - type: 27
+    prefab: {fileID: 1016468093747132, guid: c7caa5e42f3040341b1a3f66515ed511, type: 2}
+    name: Eskimo Bucket Apple
+    description: {fileID: 1149181506665620, guid: dec3f49778045094dbdec37b9aeeec82,
+      type: 2}
+    display: 1
+  - type: 28
+    prefab: {fileID: 1061786945525674, guid: 6de00f0f2ba2a3747abea1fdb5f8248c, type: 2}
+    name: Super Eskimo Pot Apple
+    description: {fileID: 1373847685221978, guid: e81b133fb06f41b49ac7436a96e9f36f,
+      type: 2}
+    display: 1
+  - type: 29
+    prefab: {fileID: 1724115802825882, guid: 2ed57a853a9c7714cbd44ff0d466c935, type: 2}
+    name: Super Eskimo Apple
+    description: {fileID: 1629773143267530, guid: 254b16b67acde464491b3e0cc109ad90,
+      type: 2}
+    display: 1
+  - type: 30
+    prefab: {fileID: 1834225291953520, guid: 844ffe4c1d31ec04985273f17c58013a, type: 2}
+    name: Super Eskimo Bucket Apple
+    description: {fileID: 1639664902924666, guid: c4edb1a65a3d10343857862fb000f396,
+      type: 2}
+    display: 1
+  - type: 31
+    prefab: {fileID: 1039034187134766, guid: f4530c7c3f385d54fb050a12024f4cac, type: 2}
+    name: Super Eskimo Pot Apple
+    description: {fileID: 1181848969066610, guid: e70995824eaad424997aeade5044ae23,
+      type: 2}
+    display: 1
+  - type: 32
+    prefab: {fileID: 1761997550731286, guid: eb69cf6fe77047b4c8e54cc45d516c78, type: 2}
+    name: Super Eskimo Apple
+    description: {fileID: 1543469806376250, guid: b64c2e8027f0b754a848e0493295de0f,
+      type: 2}
+    display: 1
+  - type: 33
+    prefab: {fileID: 1661049507875324, guid: f325f961d6e1cd542a42f9d1e0dc7f44, type: 2}
+    name: Super Eskimo Bucket Apple
+    description: {fileID: 1372080219910454, guid: 33894b189c6e9ec4f9a5aad4dacce24d,
+      type: 2}
+    display: 1
+  - type: 34
+    prefab: {fileID: 0}
+    name: 
+    description: {fileID: 0}
+    display: 1
+  - type: 35
+    prefab: {fileID: 1785061868868082, guid: 40dba19c7199e20409a11470ea27831d, type: 2}
+    name: Cute Apple
+    description: {fileID: 1518091033131336, guid: 25b32c8d065f73c41ac2d2df7bfd9cec,
+      type: 2}
+    display: 1
+  - type: 36
+    prefab: {fileID: 1011812196765164, guid: 43b41a6a871573b4d960ac534e4dda23, type: 2}
+    name: Cute Pot Apple
+    description: {fileID: 1286331489207788, guid: 2fbc79b816aa8864cb8fdb9917b9bfc6,
+      type: 2}
+    display: 1
+  - type: 37
+    prefab: {fileID: 1515814529487054, guid: 736549438e602bf4da46374b11b56577, type: 2}
+    name: Cute Bucket Apple
+    description: {fileID: 1173394349390618, guid: 133308dbc1537894f9f8cef1c20be124,
+      type: 2}
+    display: 1
+  - type: 38
+    prefab: {fileID: 1056177112174226, guid: 36a54f4581fa7894caf91adfd0d98cac, type: 2}
+    name: Just Apple
+    description: {fileID: 1792564563579326, guid: 274da88f345019940ab0bafb526e07ff,
+      type: 2}
+    display: 1
+  - type: 39
+    prefab: {fileID: 1346448620068186, guid: 28da8465d8cef8f43b71090ac296c84b, type: 2}
+    name: Just Pot Apple
+    description: {fileID: 1036352061914058, guid: 5805b38c881d30b45891aa7b77024b21,
+      type: 2}
+    display: 1
+  - type: 40
+    prefab: {fileID: 1669204638001356, guid: e637c8dc8663dfd44b83a4cc48050ec1, type: 2}
+    name: Just Bucket Apple
+    description: {fileID: 1721674152576384, guid: 241cc5474e98b814b99aeef256d5777e,
+      type: 2}
+    display: 1
+  - type: 41
+    prefab: {fileID: 0}
+    name: 
+    description: {fileID: 0}
+    display: 0
+  - type: 42
+    prefab: {fileID: 0}
+    name: 
+    description: {fileID: 0}
+    display: 0
+  - type: 43
+    prefab: {fileID: 1600970868745632, guid: 301734f081d716f4fbc636608e99470e, type: 2}
+    name: Explosive Apple
+    description: {fileID: 1048271503194378, guid: 9cef46acd0850114f9111a7763b04d2b,
+      type: 2}
+    display: 1
+  - type: 44
+    prefab: {fileID: 1815759277980532, guid: 7e6b27dc74e9e4c4dade9235e365a90b, type: 2}
+    name: Explosive Pot Apple
+    description: {fileID: 1682216083357704, guid: b73d113c995b31947a35a6387f8051f5,
+      type: 2}
+    display: 1
+  - type: 45
+    prefab: {fileID: 1500366217218872, guid: 1e027eb615a40154a86dd22342b999d9, type: 2}
+    name: Explosive Bucket Apple
+    description: {fileID: 1579248991381870, guid: 896ba82bddf22c542b1447d2a86973ad,
+      type: 2}
+    display: 1
+  - type: 46
+    prefab: {fileID: 1857463955462552, guid: f2c37e2b48872bf42a4eca0408792413, type: 2}
+    name: Apocalyptic Apple
+    description: {fileID: 1064766572215020, guid: 00f496c34239a4c4e9255d3b4e3f7b25,
+      type: 2}
+    display: 1
+  - type: 47
+    prefab: {fileID: 1558714560718298, guid: a6ac54eeef8986b48b503faedeccc2f1, type: 2}
+    name: Apocalyptic Pot Apple
+    description: {fileID: 1363580353515334, guid: 8a3a378ace69c7649a16a4b1d22238a9,
+      type: 2}
+    display: 1
+  - type: 48
+    prefab: {fileID: 1564554432435328, guid: 7bb2d3d059a3c1247bf783c1145e3607, type: 2}
+    name: Apocalyptic Bucket Apple
+    description: {fileID: 1170019803800760, guid: 7911c8818428ca440a593657415280e7,
+      type: 2}
+    display: 1
+  defenders:
+  - type: 1
+    prefab: {fileID: 0}
+    name: 
+    description: {fileID: 0}
+    display: 0
+  - type: 2
+    prefab: {fileID: 0}
+    name: 
+    description: {fileID: 0}
+    display: 0
+  - type: 3
+    prefab: {fileID: 0}
+    name: 
+    description: {fileID: 0}
+    display: 0
+  - type: 4
+    prefab: {fileID: 0}
+    name: 
+    description: {fileID: 0}
+    display: 0
+  - type: 5
+    prefab: {fileID: 1335875200647432, guid: 2cdce853c30c82c4b8778cdeffd33a50, type: 2}
+    name: Catapult Fox
+    description: {fileID: 1096776926037748, guid: 878590087a3119e4b9ac61d0763bc1f0,
+      type: 2}
+    display: 1
+  - type: 6
+    prefab: {fileID: 1419346864608254, guid: 5cb3e31089529e442939b09891ffaed1, type: 2}
+    name: Fire Fox Catapult
+    description: {fileID: 1421029018478488, guid: b9430975ec7b88c4aa7ec4b4d7b3810a,
+      type: 2}
+    display: 1
+  - type: 9
+    prefab: {fileID: 1474147012385844, guid: b48007d7d32520d4fa28aed1e147bb62, type: 2}
+    name: Fire Line Fox
+    description: {fileID: 1003325584056200, guid: c88fbee707f65944789ba018672a149b,
+      type: 2}
+    display: 1
+  - type: 10
+    prefab: {fileID: 1676716769537926, guid: 222508dccc9e0374e9ee1e68249150ce, type: 2}
+    name: Icefox Catapult
+    description: {fileID: 1281599279257696, guid: b9b2f87bf8dab4e4ca86e012a9d1dad2,
+      type: 2}
+    display: 1
+  - type: 11
+    prefab: {fileID: 1192900915550316, guid: 1cb0aba83826a1f4484989a5a621866e, type: 2}
+    name: Super Icefox Catapult
+    description: {fileID: 1920084819679508, guid: 656cc831dc80b75408e756a982495f1c,
+      type: 2}
+    display: 1
+  - type: 13
+    prefab: {fileID: 1819420444949304, guid: 9bb27a7993559aa44b7019458a33a2c3, type: 2}
+    name: Firefox Catapult
+    description: {fileID: 1831529351427900, guid: 0d8a3c615a7c8cd4382c6548019f07e2,
+      type: 2}
+    display: 1
+  - type: 14
+    prefab: {fileID: 1539915781173564, guid: 831789c54031f4448930c4946f2b6631, type: 2}
+    name: Super Firefox Catapult
+    description: {fileID: 1189580081262424, guid: 7103515ed65b46d4da684372c73fbbd1,
+      type: 2}
+    display: 1
+  - type: 15
+    prefab: {fileID: 1433112556816594, guid: 62ee2debc1563f54a89ee6696e3da8e4, type: 2}
+    name: Bang
+    description: {fileID: 1039966400797790, guid: 644d7f3d52e89e54a9c76e94c29f9bee,
+      type: 2}
+    display: 1
+  - type: 16
+    prefab: {fileID: 1402625592731760, guid: df0e1f959eb2a6d49bc457d3f0a3356f, type: 2}
+    name: Boom
+    description: {fileID: 1219204897767926, guid: ee1c1b11e4b2dae4ea431bb152dba70a,
+      type: 2}
+    display: 1
+  - type: 17
+    prefab: {fileID: 1575723530931116, guid: c743760148d2bc544b5962d8e6f941be, type: 2}
+    name: Super Boom
+    description: {fileID: 1061898550162552, guid: af301bfd7bbdcd04f97741d0eb325c03,
+      type: 2}
+    display: 1
+  - type: 26
+    prefab: {fileID: 1025715135538766, guid: a8f704d0a2164da48823da3041b3b3e2, type: 2}
+    name: Pyromaniac
+    description: {fileID: 1292203086671518, guid: 436de73dae286aa4ca0764bebffad39a,
+      type: 2}
+    display: 1
+  - type: 27
+    prefab: {fileID: 1996402930752080, guid: ddc4302494a0d994dafc8161daa8718e, type: 2}
+    name: TOC Pyro
+    description: {fileID: 1459585269115480, guid: 3b5dbe39ecf781541920b4c29569e800,
+      type: 2}
+    display: 1
+  - type: 28
+    prefab: {fileID: 1187587017910164, guid: f0d41ec5d446e064e830b0dd82b6bba9, type: 2}
+    name: Granade Fox
+    description: {fileID: 1057684284546096, guid: d59931bc1c33d6145aaca1c36a3a6487,
+      type: 2}
+    display: 1
+  - type: 29
+    prefab: {fileID: 1263591043364366, guid: a478b7399e68ebf4fa0e48a085a60ee7, type: 2}
+    name: Coolfox
+    description: {fileID: 1845853451731118, guid: 515c9645e9ae25b4f8e6b4d7d0c41004,
+      type: 2}
+    display: 1
+  - type: 30
+    prefab: {fileID: 1998188135638806, guid: 2a74c1ca8c6771a4988dc37607fcd6b7, type: 2}
+    name: Freezer Fox
+    description: {fileID: 1374639728899224, guid: 46ea2bc1ee6bb8d40b92e2d2d61b6c60,
+      type: 2}
+    display: 1
+  - type: 31
+    prefab: {fileID: 1970569029355902, guid: 6a38dc6b0c35fba4eab69cd5cff251a3, type: 2}
+    name: Gunfox
+    description: {fileID: 1898445677984826, guid: aef32ffd2b33f3f4d871a98c334585ce,
+      type: 2}
+    display: 1
+  - type: 32
+    prefab: {fileID: 1964375723213590, guid: 1a81c9e9fb478ab49b998fc2ebef3b15, type: 2}
+    name: Infantery Fox
+    description: {fileID: 1175079384734648, guid: c07c0960de101cc4e933040244551d6b,
+      type: 2}
+    display: 1
+  - type: 33
+    prefab: {fileID: 1911457491247766, guid: db63289e537d504498f1688a48111974, type: 2}
+    name: Captain Fox
+    description: {fileID: 1114675668349388, guid: f2744652f5219f34f8615ee0696302e9,
+      type: 2}
+    display: 1
+  - type: 34
+    prefab: {fileID: 1656895323840548, guid: 164179af16a0437469acd02df6f7bb35, type: 2}
+    name: Crazy Gun
+    description: {fileID: 1956199005808536, guid: 211bd5cc4750df84c99f5a7e188ebf30,
+      type: 2}
+    display: 1
+  - type: 35
+    prefab: {fileID: 1606128576434836, guid: 2cca2dc2bead21140842293e7fe9cc92, type: 2}
+    name: Musketeer
+    description: {fileID: 1315892185553296, guid: e8bb05cfbc2969e49b64e9ddca92744e,
+      type: 2}
+    display: 1
+  - type: 36
+    prefab: {fileID: 1523462275245470, guid: b99b5022c7b1fc34a99c4fde986d54cf, type: 2}
+    name: Happy Eyes
+    description: {fileID: 1730710344397608, guid: 1194ea3a6b2a7f349a41951d4f9182d9,
+      type: 2}
+    display: 1
+  - type: 37
+    prefab: {fileID: 1476331587844724, guid: 37359c9bdc9535c45aa34187454823c8, type: 2}
+    name: Cool Happy Eyes
+    description: {fileID: 1534306854125064, guid: 3207ad9f091ceb943baffafc7e313c06,
+      type: 2}
+    display: 1
+  - type: 38
+    prefab: {fileID: 1535111511191100, guid: 8408cd884094ec545940bca9c3448be0, type: 2}
+    name: Mamma  Fox
+    description: {fileID: 1736915186509468, guid: 32028690283a7874a84498119bf6b06e,
+      type: 2}
+    display: 1
+  - type: 39
+    prefab: {fileID: 1346931153808880, guid: 6ee8f05b06bec104aa9590111bf26ed8, type: 2}
+    name: Mom Fox
+    description: {fileID: 1200521583145518, guid: 99e210dd945e633428e5d2294f8cd67c,
+      type: 2}
+    display: 1
+  - type: 40
+    prefab: {fileID: 1447631880360200, guid: 13c4a0b8d7ccc814ab3bf4fb7f94784f, type: 2}
+    name: Ma Fox
+    description: {fileID: 1267883425350852, guid: 07ed8c6752cf5ed46aa1aa43d57c95af,
+      type: 2}
+    display: 1
+  - type: 41
+    prefab: {fileID: 1009309530633474, guid: e339f84d5b3e40e46a8462801403cb0d, type: 2}
+    name: Wallfox
+    description: {fileID: 1852991250626760, guid: 0ab4217e7a501c54aa4736e8e2b935fd,
+      type: 2}
+    display: 1
+  - type: 42
+    prefab: {fileID: 1224686610160908, guid: 5686305bafb8109438dd6b38a0ba3aa7, type: 2}
+    name: Barrierfox
+    description: {fileID: 1359844203498794, guid: d2e1eeb096ae5524a96bd41541071c15,
+      type: 2}
+    display: 1

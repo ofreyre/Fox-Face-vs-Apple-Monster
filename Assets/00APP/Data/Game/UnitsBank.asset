@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b2b2bd9bd840c64fa056c1e2595d840, type: 3}
+  m_Name: UnitsBank
+  m_EditorClassIdentifier: 
+  bulletsBank: {fileID: 11400000, guid: d75f1021573ba744b8bfcd9589bcd618, type: 2}
+  items:
+  - type: 1
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1905951494268106, guid: 998fcb1641450564e94d1b3a520d3946, type: 2}
+    bulletType: 0
+  - type: 2
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1774383825459894, guid: 50ec34f9d73d0884c8258311b9d37a1e, type: 2}
+    bulletType: 0
+  - type: 3
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1796093040532892, guid: e1aaaaf90c478544f85c2f2a5729421f, type: 2}
+    bulletType: 0
+  - type: 4
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1626097118451594, guid: 27abd8414d242924d9b1f2d1b511909e, type: 2}
+    bulletType: 0
+  - type: 5
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1630406167713386, guid: 1526fd31220e94c4b843932949ab909f, type: 2}
+    bulletType: 13
+  - type: 6
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1232809221266532, guid: 69beedb07ae4e724d924a7ac642c982a, type: 2}
+    bulletType: 17
+  - type: 7
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1017674419017784, guid: b8f806e6fd9d73a4b82d25cacf3a5c1d, type: 2}
+    bulletType: 8
+  - type: 8
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1914885877015270, guid: fb7631410b0bd2a499a39f74649196c0, type: 2}
+    bulletType: 12
+  - type: 9
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1785266397439934, guid: 6345d0f760c506147bf1112bdb1d3fad, type: 2}
+    bulletType: 26
+  - type: 10
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1604868490825872, guid: 0f96b29fbd3707447b1e61c08d7d19a8, type: 2}
+    bulletType: 14
+  - type: 11
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1808085718839030, guid: bffbea905909d7b48bbcb88a6c7d4b52, type: 2}
+    bulletType: 18
+  - type: 12
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1776734696366924, guid: 099221f3a6ee41543b71c71fe555dc6b, type: 2}
+    bulletType: 16
+  - type: 15
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1114242841272988, guid: 3608de95dea1efd409d9cea5bbfa1543, type: 2}
+    bulletType: 0
+  - type: 16
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1362502042239112, guid: 348595c49b05b834982ea4c5f70ac3f3, type: 2}
+    bulletType: 0
+  - type: 17
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1008000554182328, guid: 595b7e7270894e14b951c24279a2a591, type: 2}
+    bulletType: 0
+  - type: 18
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1750990121664784, guid: 0c60dbbaf6655d743874d3491fc7b23c, type: 2}
+    bulletType: 0
+  - type: 19
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1738231531944234, guid: cb728f76a7ba2b14c9021e3024f0bafb, type: 2}
+    bulletType: 0
+  - type: 20
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1285595460016576, guid: 3c42467110077f147b2b85b4b9aaed95, type: 2}
+    bulletType: 0
+  - type: 21
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1166044822725190, guid: e2a68fe36383d6747af393bc550a93b8, type: 2}
+    bulletType: 0
+  - type: 22
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1989460715738790, guid: a95ebc3d2687dab448bc57a3beabf219, type: 2}
+    bulletType: 0
+  - type: 23
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1473756678853946, guid: 560dc283e8621d8499041a364542ae6e, type: 2}
+    bulletType: 0
+  - type: 24
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1139819692567556, guid: 93b90b6fe17b0b44e85d3c6ee9fc1606, type: 2}
+    bulletType: 0
+  - type: 25
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1903248706157652, guid: 4a55395858d453c48a57c77057695ca3, type: 2}
+    bulletType: 0
+  - type: 26
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1988551049818296, guid: 6015fc690730ff1468bc57766c52290f, type: 2}
+    bulletType: 7
+  - type: 27
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1282234160598754, guid: b240640af124260479a5501f6c5dc90b, type: 2}
+    bulletType: 11
+  - type: 28
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1651569421248766, guid: 3bca16511337a61479f097297660307a, type: 2}
+    bulletType: 0
+  - type: 29
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1410336188106746, guid: af63198606d460c4fa294e3bbc0f30eb, type: 2}
+    bulletType: 6
+  - type: 30
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1627889999115478, guid: e970cc1eaa7908645819b3d8c620920d, type: 2}
+    bulletType: 10
+  - type: 31
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1557685127567788, guid: 469a2a9fefe82534c95aac45a7b900cb, type: 2}
+    bulletType: 5
+  - type: 32
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1679958797629222, guid: 526f6a2d816d80e4c938e1a5ef45280f, type: 2}
+    bulletType: 5
+  - type: 33
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1996730952400244, guid: 83059c42caea50541a556eb0984e49a1, type: 2}
+    bulletType: 9
+  - type: 34
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1791602400092910, guid: 3327cac2c93cfb4428f1619ad291d49b, type: 2}
+    bulletType: 9
+  - type: 36
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1316324850306666, guid: bdd0fef8e26dc234cb33a6d8cdeb1953, type: 2}
+    bulletType: 1
+  - type: 37
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1516676546251692, guid: c35f84369af7f724fbdc5ea646ea7216, type: 2}
+    bulletType: 2
+  - type: 38
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1201926979789484, guid: 16e05b67efc16da409e152cae10a2d4a, type: 2}
+    bulletType: 25
+  - type: 39
+    cellFill:
+    - type: 38
+      additive: 0
+    prefab: {fileID: 1343069587789860, guid: c3945600349ebe24984336ab494c3198, type: 2}
+    bulletType: 25
+  - type: 40
+    cellFill:
+    - type: 39
+      additive: 0
+    prefab: {fileID: 1373591845056948, guid: 0c73ae28afdf2ad4c88cea5f450626a4, type: 2}
+    bulletType: 25
+  - type: 35
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1612401280237538, guid: 2cb5b86fc9f12cf4381e031f7111b6ed, type: 2}
+    bulletType: 29
+  - type: 41
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1460188825863542, guid: 1549504c1d515e94cb357a3d2e22eeb7, type: 2}
+    bulletType: 0
+  - type: 42
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1975882603538206, guid: e77eae6a4aa71db44b682916e06b6179, type: 2}
+    bulletType: 0
+  - type: 13
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1841163963504286, guid: 3053074a4e113ab4d86468e5e25c93f1, type: 2}
+    bulletType: 15
+  - type: 14
+    cellFill:
+    - type: 0
+      additive: 0
+    prefab: {fileID: 1617581786890692, guid: 9a7eac9e090f1b64f98802cfafb8cd0f, type: 2}
+    bulletType: 23

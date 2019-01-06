@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 6be5b7215897da04a8810815c512571a, type: 3}
+    - {fileID: 102900000, guid: cd3bd9668779c864590dafd83eb0c6f8, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 57b1ce10a796dc64faafc11892111415, type: 3}
+  - {fileID: 21300000, guid: 1004fc207e6629046bbbcb61a577bd83, type: 3}
+  - {fileID: 21300000, guid: e7d69450f6193fc42af062c2dd517d0e, type: 3}
+  - {fileID: 21300000, guid: 279d6970f5b672146980c0309d807532, type: 3}
+  - {fileID: 21300000, guid: df10e690b96b75c408f9b7a550f35ce6, type: 3}
+  - {fileID: 21300000, guid: e2a102a019578d54a9f0ce560da9b73a, type: 3}
+  - {fileID: 21300000, guid: ba2e62e002506b945832e20af0bb5103, type: 3}
+  - {fileID: 21300000, guid: 141664013cb131949841dd544096e942, type: 3}
+  - {fileID: 21300000, guid: 92e16111fd1e7cf489aeb4fda3aa25af, type: 3}
+  - {fileID: 21300000, guid: cfc5d941556ea1644b76c1a6d2a29bef, type: 3}
+  - {fileID: 21300000, guid: 8db72f61347343e4bb1adcac45c2b6e3, type: 3}
+  - {fileID: 21300000, guid: 59dc3e7130a7eb14fad7dbebbe1d54d6, type: 3}
+  - {fileID: 21300000, guid: 63c603a12d1191c43af20d593b135707, type: 3}
+  - {fileID: 21300000, guid: 861538a113de046408b894cfdd31c297, type: 3}
+  - {fileID: 21300000, guid: 31acefd1af4b46449bde146f7e1b8b29, type: 3}
+  - {fileID: 21300000, guid: 9d7727220d22fd04088a1b21c250ca5a, type: 3}
+  - {fileID: 21300000, guid: fd5999521270bee4c9b027b72a8d0680, type: 3}
+  - {fileID: 21300000, guid: 215f8262edef906499b17c0d1342cb23, type: 3}
+  - {fileID: 21300000, guid: 0f76a762b66c5b74e874f8172fbbdbc6, type: 3}
+  - {fileID: 21300000, guid: 4f467592327e9c54096ea3388c1addd8, type: 3}
+  - {fileID: 21300000, guid: ebb622c20ff9c3a4db1ce00389aaa38b, type: 3}
+  - {fileID: 21300000, guid: ca993dd27c954f54092c4eccde395a7f, type: 3}
+  - {fileID: 21300000, guid: 9c32c7e21bfb79b41841a0aa62e67e8c, type: 3}
+  - {fileID: 21300000, guid: 9fd1bde280507f649ba6b27f8121830e, type: 3}
+  - {fileID: 21300000, guid: 07942b033bc09d244a83076a966e32c7, type: 3}
+  - {fileID: 21300000, guid: 147978431795acb4e9618545645b7fda, type: 3}
+  - {fileID: 21300000, guid: e465527310238b346a225df39f5a3046, type: 3}
+  - {fileID: 21300000, guid: f6645c73abfd25e4cab6766db74a7238, type: 3}
+  - {fileID: 21300000, guid: b24dfbd31eec5704c860cacea56d7e08, type: 3}
+  - {fileID: 21300000, guid: 6ad307e37933e3e49a868b702775a808, type: 3}
+  - {fileID: 21300000, guid: 58922224d1099e247bfb5aa13e139a81, type: 3}
+  - {fileID: 21300000, guid: 4aa6c9845d32b394987a0544015cda4d, type: 3}
+  - {fileID: 21300000, guid: 0e95b2a4605264d42a16293edf66122d, type: 3}
+  - {fileID: 21300000, guid: e00604c4f321d964e83f3e6e0eee3dda, type: 3}
+  - {fileID: 21300000, guid: 4b5d51d4ea9b6294d83f9d52b8d86dac, type: 3}
+  - {fileID: 21300000, guid: 4f616dd470f778749a1e1838735468b5, type: 3}
+  - {fileID: 21300000, guid: 1dae7d85a94311b4c9a80595694cdb2d, type: 3}
+  - {fileID: 21300000, guid: cacb95d57efb5164f9246b49ebe5f251, type: 3}
+  - {fileID: 21300000, guid: 58d9a1f5f3c6a5a4394cdcec9c6496b4, type: 3}
+  - {fileID: 21300000, guid: 74bf16069a4f80841989dc560646ad3c, type: 3}
+  - {fileID: 21300000, guid: 8d405636cf29da248b2a6ee186df85f4, type: 3}
+  - {fileID: 21300000, guid: 8c80a73646cf9d3469f41cb38ac23a5b, type: 3}
+  - {fileID: 21300000, guid: cfefc95659710614fbf57251692b6f1a, type: 3}
+  - {fileID: 21300000, guid: 5ba08c662a365844fabd12589bc42ba3, type: 3}
+  - {fileID: 21300000, guid: 048d56a6a6e154548ae9d524cd93813c, type: 3}
+  - {fileID: 21300000, guid: 5f642ab68451d7a4bb5b3127fe548a28, type: 3}
+  - {fileID: 21300000, guid: 284547f6ae045fc4a9c79910e3ce030d, type: 3}
+  - {fileID: 21300000, guid: c8e39e17c52e0a643a9361825662073d, type: 3}
+  - {fileID: 21300000, guid: 2bbe9257317c4b141a90d03eccd8c948, type: 3}
+  - {fileID: 21300000, guid: 1f0082c78bf8c86459a15ab2bc7d3810, type: 3}
+  - {fileID: 21300000, guid: 9dcedce73bd1f0d4ba997d49edbe009f, type: 3}
+  - {fileID: 21300000, guid: ab667b09516ba844dae95ed693de3b13, type: 3}
+  - {fileID: 21300000, guid: 5f2d3b190eac8964db73e2578b79b7e6, type: 3}
+  - {fileID: 21300000, guid: 8ac77279a022ae54e8bec5b0318a55b2, type: 3}
+  - {fileID: 21300000, guid: 698f3f894300a8648b85529e49ea3bc4, type: 3}
+  - {fileID: 21300000, guid: 8d3d7599234357d43b48b11983d13f37, type: 3}
+  - {fileID: 21300000, guid: 14049df930c847b4ea88c5e65fe46b17, type: 3}
+  - {fileID: 21300000, guid: fdd4640a51d614b41812e3fd67c7d645, type: 3}
+  - {fileID: 21300000, guid: 9ad2890acab9b93499bac6eb0be7612a, type: 3}
+  - {fileID: 21300000, guid: d01f421a5c22397499ea335fe0022084, type: 3}
+  - {fileID: 21300000, guid: e16f5c1aabf36304898216ae538d1db4, type: 3}
+  - {fileID: 21300000, guid: 3a374b2a8be6ae546b994de4144ae738, type: 3}
+  - {fileID: 21300000, guid: 1b53c05a7e082574ea41add32b775c4a, type: 3}
+  - {fileID: 21300000, guid: ab3291ca85e3fb746b7728c5a48a7d2f, type: 3}
+  - {fileID: 21300000, guid: 9404030b7dbed4248aec6cae8eb3a3a4, type: 3}
+  - {fileID: 21300000, guid: 05e2af1b88127af469ed666c5fd0b7c3, type: 3}
+  - {fileID: 21300000, guid: 17b6395b404b7594185063530a1e18b8, type: 3}
+  - {fileID: 21300000, guid: 16c2486be25b89f468edb4430fd4cae5, type: 3}
+  - {fileID: 21300000, guid: a605c4bb24c4091449b3485c26d0dd7e, type: 3}
+  - {fileID: 21300000, guid: 6967d43c6efe7a24b81e9a440f34317d, type: 3}
+  - {fileID: 21300000, guid: 452a56ace03a27f49a141a29c37fa847, type: 3}
+  - {fileID: 21300000, guid: ba815c1d6d980274eb2d5e807ef0a761, type: 3}
+  - {fileID: 21300000, guid: 357d6b6d359a9704d8ffff8e3242c266, type: 3}
+  - {fileID: 21300000, guid: a3e7daad18a5c754a956a2c216d5a9d2, type: 3}
+  - {fileID: 21300000, guid: b1d722ed776dcbf4b8bd51d115474a7c, type: 3}
+  - {fileID: 21300000, guid: fb1c7afdf3e2e304088006fe60d0262f, type: 3}
+  - {fileID: 21300000, guid: ea1a3dfd6d2bce54eb46ec8e6dc255e1, type: 3}
+  - {fileID: 21300000, guid: 888a59bec620b764db3ccdf18d4e6d02, type: 3}
+  - {fileID: 21300000, guid: 244f191fc9574ef45b0eecc61d3653dd, type: 3}
+  - {fileID: 21300000, guid: fce6883f1590db8499e86f0042ef8e66, type: 3}
+  - {fileID: 21300000, guid: 893d4f7f328482944843976475e775ec, type: 3}
+  - {fileID: 21300000, guid: 70f1e88f522f601408b95fab54669e96, type: 3}
+  - {fileID: 21300000, guid: 450b17dffefa2f74cbec27a13daca239, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ico-espada-rapida
+  - ico-mina-batata
+  - ico-espada-rapida-escudo
+  - Flag-Pacman
+  - btnShop
+  - row_long
+  - btnUpgrades
+  - ico-espada
+  - frame-big
+  - ico-fire-peashooter-super
+  - ico-ghost-glue
+  - Flag-Minions
+  - ico-ghost-kernel-pult-ice
+  - ico-ghost-Couve-pult-super
+  - ico-ghost-atomic bomb
+  - ico-ghost-couve-pult-fire
+  - PacmanCastle
+  - MessageWIndow
+  - ico-espada-rapida-fuego
+  - ico-pea neve-super
+  - frame-upgrade-bkg
+  - btnTutorial
+  - ico-fire-peashooter
+  - ico-ghost-glue-weapon-fire-super
+  - btnMinions
+  - ico-star
+  - btnPlay
+  - ico-peashooter-fast-strong
+  - PopupWindow
+  - ico-frame
+  - ico-espada-rapida-ice-escudo
+  - ico-peashooter
+  - btnMain
+  - ico-doom-shroom
+  - btnPacmans
+  - ico-ghost-Jalapeno
+  - ico-repeater-weapon
+  - ico-Cherry Bomb
+  - ico-Sunflower-2
+  - green-square
+  - ico-ghost-glue-super
+  - btnReplay
+  - btnRate
+  - ico-ghost-agregador-ice
+  - ico-pea neve
+  - ico-empty
+  - btnAdd
+  - ico-ghost-kernel-pult-pult
+  - MinionsCastle
+  - btnGamepedia
+  - ico-split pea-ice
+  - ico-espada-escudo
+  - hammer
+  - ico-peashooter-fast
+  - ico-Sunflower-1
+  - Button
+  - ico-Split Pea
+  - GameUIbkg
+  - ico-play
+  - ico-Sunflower-0
+  - ico-ghost-Squash
+  - ico-Wall-nut-tall
+  - ico-btnPlayVideo
+  - ico-frame-selected
+  - btnSettings
+  - ico-star-micro
+  - btnItems
+  - ButtonBrown
+  - ico-Wall-nut
+  - ico-espada-rapida-escudo-fuego
+  - ico-ghost-agregador-Torchwood
+  - ico-ghost-agregador-glue
+  - btnClear
+  - ico-frameEmptyBrown
+  - lock
+  - frame-upgrade-selected
+  - ico-espada-rapida-ice
+  - ico-pacman-threepeater
+  - ico-ico-espada-rapida-ice-escudo
+  - ico-ghost-couve-pult
+  - frame-upgrade
+  - star
+  - ico-ghost-Kernel-pult-ice-super
+  m_Tag: UI
+  m_IsVariant: 0

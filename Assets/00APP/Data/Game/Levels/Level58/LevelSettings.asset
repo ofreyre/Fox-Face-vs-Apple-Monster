@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab1872513fe7bc4d8d6a5ff4c3276ea, type: 3}
+  m_Name: LevelSettings
+  m_EditorClassIdentifier: 
+  mapSettings: {fileID: 11400000, guid: ea95ab79d23682742a1178fb4246ffe9, type: 2}
+  hordes: {fileID: 11400000, guid: 0ef26752191e60b46aea03aa91a27679, type: 2}
+  scene: GameScene0
+  coins: 0
+  babypacman: {fileID: 11400000, guid: 5bea700e1aad2ab4d891bac241f6a8cd, type: 2}

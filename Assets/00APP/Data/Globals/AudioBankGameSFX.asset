@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc9e506fb71f83f42b77592a87d1127a, type: 3}
+  m_Name: AudioBankGameSFX
+  m_EditorClassIdentifier: 
+  m_clips:
+    m_keys:
+    - arrive
+    - bulletHit0
+    - bulletHit1
+    - bulletHit2
+    - bulletHit3
+    - catapult
+    - diePacman0
+    - diePacman1
+    - laugh0
+    - laugh1
+    - laugh2
+    - laugh3
+    - laugh4
+    - laugh5
+    - laugh6
+    - laugh7
+    - minionAttack0
+    - minionAttack1
+    - minionAttack2
+    - minionAttack3
+    - minionAttack4
+    - pacmanAttack0
+    - pacmanAttack1
+    - pacmanAttack2
+    - pacmanAttack3
+    - musicBegin
+    - musicLose
+    - musicWin
+    - dieMinion0
+    - dieMinion1
+    - dieMinion2
+    - dieMinion3
+    - dieMinion4
+    - explosion_short0
+    - explosion_mid0
+    - explosion_mid1
+    - explosion_mid2
+    - explosion_mid3
+    - explosion_long0
+    - explosion_long1
+    - explosion_long2
+    - gameCoin
+    - sonicpacman
+    - collectCoin
+    - collectBabypacman
+    - spawnBabypacman
+    m_values:
+    - m_clip: {fileID: 8300000, guid: f617cae0b07cecd4fb22fd66162608a5, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -690611065
+    - m_clip: {fileID: 8300000, guid: 5abb9981a37debd4fadc7f49c27f605f, type: 3}
+      m_maxAtOnce: 2
+      m_isConsumable: 0
+      m_key: -1937553657
+    - m_clip: {fileID: 8300000, guid: da034c73de6547d4c8f08923190d4850, type: 3}
+      m_maxAtOnce: 2
+      m_isConsumable: 0
+      m_key: 791329698
+    - m_clip: {fileID: 8300000, guid: 9443122eff22da04ab9516b9051ed9ca, type: 3}
+      m_maxAtOnce: 2
+      m_isConsumable: 0
+      m_key: 1194614225
+    - m_clip: {fileID: 8300000, guid: 8b92596e3255e5f4eb4c29b9f4e20d5f, type: 3}
+      m_maxAtOnce: 2
+      m_isConsumable: 0
+      m_key: -371469716
+    - m_clip: {fileID: 8300000, guid: a1063b6f532dd1b4484efc2c817333a4, type: 3}
+      m_maxAtOnce: 6
+      m_isConsumable: 0
+      m_key: 1145722690
+    - m_clip: {fileID: 8300000, guid: 013c04c100e357f48ad3e4369de493b9, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 1551680204
+    - m_clip: {fileID: 8300000, guid: 80a8d44d88d94a642b279761d092e8be, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -1177203151
+    - m_clip: {fileID: 8300000, guid: 1b014b13ea3efb941a881af37badc9ab, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 1961718803
+    - m_clip: {fileID: 8300000, guid: 9f26cd225670d3f4c934eb64bde1e882, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 395634862
+    - m_clip: {fileID: 8300000, guid: dcf43c81be111f04ebdd6c2cad3fb33c, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -1170449079
+    - m_clip: {fileID: 8300000, guid: f1f679d10f86750459b66c2764aa8dae, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 1558434276
+    - m_clip: {fileID: 8300000, guid: b0825656c95456844981a5e7bfaddf84, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -363880025
+    - m_clip: {fileID: 8300000, guid: c720e996743134749acc3116ca192bc2, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -1929963966
+    - m_clip: {fileID: 8300000, guid: 5e9be8e490cd94f4bb7712ce903f176a, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 798919389
+    - m_clip: {fileID: 8300000, guid: e20dab8d9beb2ef4c8861ffc024a0542, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -767164552
+    - m_clip: {fileID: 8300000, guid: 5f68506fe0023394c8a83ea816a4c27a, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -333662536
+    - m_clip: {fileID: 8300000, guid: 6a9610d6b969f7748bf16627e86660c3, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -333662537
+    - m_clip: {fileID: 8300000, guid: 544c912285bd74c4498a08114d9c106d, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -333662538
+    - m_clip: {fileID: 8300000, guid: 92b1921870796c342a4ddc8de93869f9, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -333662539
+    - m_clip: {fileID: 8300000, guid: 2a56a8d0cb51db24d9751aab10de32e9, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -333662540
+    - m_clip: {fileID: 8300000, guid: e14cb19bac59146459a46e3c2edd06b7, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -497220434
+    - m_clip: {fileID: 8300000, guid: 56626b83f8b07db4ab25ba8860fb93d0, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -497220435
+    - m_clip: {fileID: 8300000, guid: 4b9e00d5e27ae9d44be65008722742e7, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -497220432
+    - m_clip: {fileID: 8300000, guid: 0815701a470e53944afdc6f50b8e0c02, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -497220433
+    - m_clip: {fileID: 8300000, guid: b3f87053571904f4c9814aea10419d3c, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 1
+      m_key: -314454834
+    - m_clip: {fileID: 8300000, guid: 62a9a881082e65142a36caa72750ddfc, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 1568035376
+    - m_clip: {fileID: 8300000, guid: 5ea85c5feec434248a72b123537e9ed7, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -1681679951
+    - m_clip: {fileID: 8300000, guid: 9aaeca612b19dd64488bd94d9efaddb2, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 592361914
+    - m_clip: {fileID: 8300000, guid: 78fe599663f20ab4c97ebba19038f0f8, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -2136521441
+    - m_clip: {fileID: 8300000, guid: 43e6b9a8160e09a46bf42fe9ce9216ff, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -570437500
+    - m_clip: {fileID: 8300000, guid: 54589e7e09808ca488f6a2b271421e90, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 995646441
+    - m_clip: {fileID: 8300000, guid: 3a68225eb461bef49aaa158d9c47aa8b, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -1733236914
+    - m_clip: {fileID: 8300000, guid: 43d7b724b1fc34f4a81e45648d850a58, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 1035972936
+    - m_clip: {fileID: 8300000, guid: 7a5c9b933d73d864097ec770d6c05de0, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -1315925752
+    - m_clip: {fileID: 8300000, guid: 90b2f69927ff2424d9571ebc544e34af, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 1412957603
+    - m_clip: {fileID: 8300000, guid: c9702e4e52d4d4f47a577ce4e8cbfb5a, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -153126338
+    - m_clip: {fileID: 8300000, guid: e25d6f2870b8f874fa9bec73c83dbd90, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -1719210279
+    - m_clip: {fileID: 8300000, guid: 3e63d0f22c7226148914c4a4b6f6c12d, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -598999636
+    - m_clip: {fileID: 8300000, guid: 79a5dbb7852c69b48ab89cab46bdfdc9, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -598999635
+    - m_clip: {fileID: 8300000, guid: 2ba821fd3a6eba740a8bd041e021e810, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -598999638
+    - m_clip: {fileID: 8300000, guid: 4a33160056e2ea44f9d9fdfb9a2c92a8, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -1753128091
+    - m_clip: {fileID: 8300000, guid: 1250e57826fb87b42b4a5a8e7e60c989, type: 3}
+      m_maxAtOnce: 6
+      m_isConsumable: 0
+      m_key: 1460891310
+    - m_clip: {fileID: 8300000, guid: 2c08aea14d4122f44a000f53e7e8ccbf, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 1455277093
+    - m_clip: {fileID: 8300000, guid: e5ee5b63f903f8541b90cc49045e4fbe, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: -611932972
+    - m_clip: {fileID: 8300000, guid: 8f09889dd2bfec94a923e26c04c0e8ee, type: 3}
+      m_maxAtOnce: 1
+      m_isConsumable: 0
+      m_key: 211495827

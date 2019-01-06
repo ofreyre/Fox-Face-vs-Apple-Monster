@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd723894d0982aa4288da64a9e097fbe, type: 3}
+  m_Name: Hordes
+  m_EditorClassIdentifier: 
+  hordes:
+  - {fileID: 11400000, guid: 27f186634e7dbc84dbb8787f35491837, type: 2}
+  - {fileID: 11400000, guid: 922e0b9ae45a05e40895bd7043ec6c69, type: 2}
+  - {fileID: 11400000, guid: a20a33527b446ab44b6561630dfc009d, type: 2}
+  - {fileID: 11400000, guid: 0d5edaca381a3f64aa63df8519ee2055, type: 2}
+  - {fileID: 11400000, guid: 79b922aab49e598459eea9cb7e813c95, type: 2}
+  - {fileID: 11400000, guid: b130ebb7844527942923e2dc19e3246b, type: 2}

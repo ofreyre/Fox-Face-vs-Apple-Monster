@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19cd9a71c04df2549a50a191d3aa33b1, type: 3}
+  m_Name: BulletsBank
+  m_EditorClassIdentifier: 
+  items:
+  - type: 5
+    prefab: {fileID: 1899286754498940, guid: 8f790db7b153e55499b0fb64886522a9, type: 2}
+    damage:
+      damageHit: 0.1
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 5
+  - type: 7
+    prefab: {fileID: 1933001076615736, guid: 083608a8cd4b11244ab879f51226dee7, type: 2}
+    damage:
+      damageHit: 0.1
+      damageFire: 0.25
+      damageIce: 0
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 6
+  - type: 8
+    prefab: {fileID: 1729522070904144, guid: 8ad7095b6085fcf439343b5c65efbf5d, type: 2}
+    damage:
+      damageHit: 0.1
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0
+      damageGlue: 0.05
+      durationIce: 0
+      durationGlue: 3
+    explosionType: 7
+  - type: 6
+    prefab: {fileID: 1466240662817374, guid: 733ae26a627803340afe81bba00187c2, type: 2}
+    damage:
+      damageHit: 0.1
+      damageFire: 0
+      damageIce: 0.05
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 3
+      durationGlue: 0
+    explosionType: 8
+  - type: 1
+    prefab: {fileID: 1088892727268060, guid: 8574f91078d96c34d9307b8b95412457, type: 2}
+    damage:
+      damageHit: 0.05
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 1
+  - type: 3
+    prefab: {fileID: 1350816276512346, guid: 9a4b2a41f4873004790b6c9fcad60ef2, type: 2}
+    damage:
+      damageHit: 0.05
+      damageFire: 0.05
+      damageIce: 0
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 2
+  - type: 4
+    prefab: {fileID: 1210560345118430, guid: af4d588503d2feb4fb93d9c257d27ff8, type: 2}
+    damage:
+      damageHit: 0.15
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0
+      damageGlue: 0.025
+      durationIce: 0
+      durationGlue: 2
+    explosionType: 3
+  - type: 2
+    prefab: {fileID: 1586476736564008, guid: 80c33edf4bc02d64a90d8d2444c9c1dc, type: 2}
+    damage:
+      damageHit: 0.05
+      damageFire: 0
+      damageIce: 0.015
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 2
+      durationGlue: 0
+    explosionType: 4
+  - type: 9
+    prefab: {fileID: 1572224975965810, guid: ead396b0adb7da84da272819669e890d, type: 2}
+    damage:
+      damageHit: 0.15
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 9
+  - type: 10
+    prefab: {fileID: 1891107613848334, guid: eec90dfb13a3b9f41bb74f4fa79f0c3e, type: 2}
+    damage:
+      damageHit: 0.15
+      damageFire: 0
+      damageIce: 0.1
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 4
+      durationGlue: 0
+    explosionType: 12
+  - type: 11
+    prefab: {fileID: 1751595077153942, guid: d5074c407f177cd43994c63972a22623, type: 2}
+    damage:
+      damageHit: 0.15
+      damageFire: 0.35
+      damageIce: 0
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 10
+  - type: 12
+    prefab: {fileID: 1979926005700346, guid: a820471f79e2241449bb8335ccde9181, type: 2}
+    damage:
+      damageHit: 0.15
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0
+      damageGlue: 0.075
+      durationIce: 0
+      durationGlue: 4
+    explosionType: 11
+  - type: 25
+    prefab: {fileID: 1549537732600146, guid: eb1d890780464e04ca7ba3203d0eddc4, type: 2}
+    damage:
+      damageHit: 0.5
+      damageFire: 0
+      damageIce: 0.5
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 3
+      durationGlue: 0
+    explosionType: 0
+  - type: 13
+    prefab: {fileID: 1961406743806174, guid: 7a04dcf9ee04d7e439cbf4860bedcb8f, type: 2}
+    damage:
+      damageHit: 0.3
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0.4
+      damageGlue: 0
+      durationIce: 3
+      durationGlue: 0
+    explosionType: 13
+  - type: 14
+    prefab: {fileID: 1454579008842134, guid: 35e8d1b7fe2c1094693073b2489875e4, type: 2}
+    damage:
+      damageHit: 0.5
+      damageFire: 0
+      damageIce: 0.1
+      damageAir: 1.4
+      damageGlue: 0
+      durationIce: 4
+      durationGlue: 0
+    explosionType: 14
+  - type: 15
+    prefab: {fileID: 1952952200133386, guid: c7a75e8c2de65164eba9e878a3ccbeab, type: 2}
+    damage:
+      damageHit: 0.3
+      damageFire: 1.4
+      damageIce: 0
+      damageAir: 0.9
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 15
+  - type: 16
+    prefab: {fileID: 1104911471380426, guid: 66fbaa4f7aed37543934b65814f5826a, type: 2}
+    damage:
+      damageHit: 0.1
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0.4
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 3
+    explosionType: 16
+  - type: 17
+    prefab: {fileID: 1524337756407160, guid: aa72fd6148bf1774da9a033ac2598280, type: 2}
+    damage:
+      damageHit: 0.5
+      damageFire: 0
+      damageIce: 0
+      damageAir: 1.4
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 17
+  - type: 18
+    prefab: {fileID: 1109900731873508, guid: d482b000b2df4ef41a3560cd8872c467, type: 2}
+    damage:
+      damageHit: 0.5
+      damageFire: 0
+      damageIce: 0.035
+      damageAir: 1.4
+      damageGlue: 0
+      durationIce: 4
+      durationGlue: 0
+    explosionType: 18
+  - type: 19
+    prefab: {fileID: 1431113474061832, guid: c647e3c7602df774d9cbec4849332ba4, type: 2}
+    damage:
+      damageHit: 0.4
+      damageFire: 0.4
+      damageIce: 0
+      damageAir: 1.4
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 19
+  - type: 20
+    prefab: {fileID: 1549537732600146, guid: eb1d890780464e04ca7ba3203d0eddc4, type: 2}
+    damage:
+      damageHit: 0.15
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0.6
+      damageGlue: 0.125
+      durationIce: 0
+      durationGlue: 4
+    explosionType: 20
+  - type: 21
+    prefab: {fileID: 1624979818330758, guid: cc5855f991974f64f806ecc7c0e8b2af, type: 2}
+    damage:
+      damageHit: 0.5
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0.7
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 21
+  - type: 22
+    prefab: {fileID: 1237425960738496, guid: 0c8fa7c5fd9aeab48af2971f53f11f89, type: 2}
+    damage:
+      damageHit: 0.7
+      damageFire: 0
+      damageIce: 0.07
+      damageAir: 0.8
+      damageGlue: 0
+      durationIce: 5
+      durationGlue: 0
+    explosionType: 22
+  - type: 23
+    prefab: {fileID: 1607554523195084, guid: 26ef79245880c9b41859e0e210935f84, type: 2}
+    damage:
+      damageHit: 0.8
+      damageFire: 1.3
+      damageIce: 0
+      damageAir: 1.1
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 23
+  - type: 24
+    prefab: {fileID: 1549537732600146, guid: eb1d890780464e04ca7ba3203d0eddc4, type: 2}
+    damage:
+      damageHit: 0.2
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0.2
+      damageGlue: 0.125
+      durationIce: 0
+      durationGlue: 4
+    explosionType: 24
+  - type: 26
+    prefab: {fileID: 1961603969809000, guid: 7cf7e1d47c66b104fa9c939631448852, type: 2}
+    damage:
+      damageHit: 0.2
+      damageFire: 5
+      damageIce: 0
+      damageAir: 0.2
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 0
+  - type: 27
+    prefab: {fileID: 1954867828237106, guid: 5effee01e3c8f524cbec2f1dd2eb0ab3, type: 2}
+    damage:
+      damageHit: 0.05
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 1
+  - type: 28
+    prefab: {fileID: 1954867828237106, guid: 5effee01e3c8f524cbec2f1dd2eb0ab3, type: 2}
+    damage:
+      damageHit: 0.1
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 1
+  - type: 29
+    prefab: {fileID: 1954867828237106, guid: 33f35f1b0ba16f74184ac764fdc83cc1, type: 2}
+    damage:
+      damageHit: 0.15
+      damageFire: 0
+      damageIce: 0
+      damageAir: 0
+      damageGlue: 0
+      durationIce: 0
+      durationGlue: 0
+    explosionType: 1
